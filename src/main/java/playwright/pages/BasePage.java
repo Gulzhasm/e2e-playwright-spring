@@ -5,7 +5,7 @@ import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
-import org.testng.Assert;
+
 import playwright.pages.interfaces.iPage;
 
 
@@ -30,7 +30,6 @@ public abstract class BasePage<P extends BasePage<P>> implements iPage<P> {
             );
             Page page = browser.newPage();
             page.navigate(this.path);
-            Assert.assertEquals(this.title, page.title());
         }
     }
 

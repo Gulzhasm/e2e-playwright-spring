@@ -16,7 +16,6 @@ public class BrowserConfigurationImpl implements BrowserConfiguration {
     @Value("${environment.baseUrl}")
     String baseUrl;
 
-
     @Override
     public void configureBrowser() {
 

@@ -1,13 +1,10 @@
 package com.kandaca.playwright.tests;
 
-import com.kandaca.playwright.pages.HomePage;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+import playwright.pages.HomePage;
 
 public class GoogleTest {
-
-    @Autowired
-    protected HomePage homePage;
+protected HomePage homePage = new HomePage();
 
     @Test
     void googleTest() {

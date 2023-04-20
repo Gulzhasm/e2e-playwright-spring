@@ -1,8 +1,9 @@
 package com.kandaca.playwright.tests;
 
 
-import com.kandaca.playwright.pages.HomePage;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import playwright.pages.HomePage;
 
 public class BaseTest {
 
