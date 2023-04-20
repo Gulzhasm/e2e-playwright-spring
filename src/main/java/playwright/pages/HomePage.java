@@ -1,4 +1,4 @@
-package com.kandaca.playwright.pages;
+package playwright.pages;
 
 import io.qameta.allure.Step;
 import org.springframework.stereotype.Component;

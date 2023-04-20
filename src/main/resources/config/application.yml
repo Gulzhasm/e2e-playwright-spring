@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active:
+      - 'local'
+      -
+environment:
+  baseUrl: 'https://www.google.com'
+
+users:
+  administrator:
+    username: 'blabla'
+    password: 'blabla'

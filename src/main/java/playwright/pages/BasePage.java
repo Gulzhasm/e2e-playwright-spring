@@ -1,11 +1,13 @@
-package com.kandaca.playwright.pages;
+package playwright.pages;
 
-import com.kandaca.playwright.pages.interfaces.iPage;
+
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
-import org.junit.Assert;
+import org.testng.Assert;
+import playwright.pages.interfaces.iPage;
+
 
 public abstract class BasePage<P extends BasePage<P>> implements iPage<P> {
     protected String title;
